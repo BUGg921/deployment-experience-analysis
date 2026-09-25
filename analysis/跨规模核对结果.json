@@ -1,0 +1,490 @@
+{
+  "count128": 100,
+  "count256": 19,
+  "count_valid_overlap": 18,
+  "transitions": {
+    "B → C": 11,
+    "A → A": 3,
+    "A → B": 2,
+    "B → A": 2
+  },
+  "first_five_matching": 19,
+  "aff_factor_matching": 19,
+  "pairs": [
+    {
+      "id": "s004",
+      "motif128": "B1",
+      "features128": [
+        0.03125,
+        0.5,
+        1.0,
+        0.0625,
+        0.0625,
+        0.0
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP\\times TP\\le N/24;\\quad TP<DP/2;\\quad DP=\\frac{N}{PP\\times TP}\\ge24;\\quad MB=\\min;\\quad EP\\in[E/C,2E/C]}$",
+      "family256": "C",
+      "features256_reported": [
+        0.031200000000000002,
+        0.5,
+        1.0,
+        0.062,
+        0.062,
+        0.0
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s005",
+      "motif128": "异常隔离",
+      "features128": [
+        0.0390625,
+        0.125,
+        0.25,
+        0.3125,
+        0.3125,
+        0.078125
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP\\ge4;\\quad MB\\ge2PP;\\quad TP\\le2;\\quad PP\\cdot TP^2\\le N/20;\\quad EP=E/C;\\quad DP=\\frac{N}{PP\\times TP}}$",
+      "family256": "A",
+      "features256_reported": [
+        0.0391,
+        0.125,
+        0.25,
+        0.312,
+        0.312,
+        0.067
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s006",
+      "motif128": "A2",
+      "features128": [
+        0.046875,
+        0.125,
+        0.25,
+        0.375,
+        0.375,
+        0.09375
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP\\ge4;\\quad MB\\ge2PP;\\quad TP<4;\\quad DP=N/(PP\\cdot TP);\\quad EP=E/C}$",
+      "family256": "A",
+      "features256_reported": [
+        0.046900000000000004,
+        0.125,
+        0.25,
+        0.375,
+        0.375,
+        0.08
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s009",
+      "motif128": "B1",
+      "features128": [
+        0.078125,
+        0.875,
+        1.0,
+        0.125,
+        0.0625,
+        0.03125
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP=\\min;\\quad PP\\le MB;\\quad TP\\in(2,4];\\quad DP=\\frac{N}{PP\\times TP};\\quad MB=\\min;\\quad EP=E/C}$",
+      "family256": "C",
+      "features256_reported": [
+        0.0781,
+        0.875,
+        1.0,
+        0.125,
+        0.062,
+        0.027
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s010",
+      "motif128": "A3",
+      "features128": [
+        0.09375,
+        0.375,
+        0.5,
+        0.25,
+        0.25,
+        0.14583333333333334
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP\\ge4\\text{ 且 }PP\\ge2TP;\\quad TP\\le PP/2;\\quad DP=\\frac{N}{PP\\times TP};\\quad MB\\ge2PP;\\quad EP=E/C}$",
+      "family256": "A",
+      "features256_reported": [
+        0.09380000000000001,
+        0.375,
+        0.5,
+        0.25,
+        0.25,
+        0.125
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s025",
+      "motif128": "A3",
+      "features128": [
+        0.2421875,
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.328125
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP\\ge2;\\ TP\\le PP/2;\\ DP=N/(PP\\cdot TP);\\ MB\\ge\\max(PP,8);\\ EP=E/C}$",
+      "family256": "B",
+      "features256_reported": [
+        0.2422,
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.281
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s026",
+      "motif128": "A3",
+      "features128": [
+        0.25,
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.3333333333333333
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP\\ge4;\\quad PP\\le MB;\\quad TP\\in[2,4);\\quad DP=\\frac{N}{PP\\times TP};\\quad MB\\ge\\max(PP,6);\\quad EP\\in[E/C,4E/(3C)]}$",
+      "family256": "A",
+      "features256_reported": [
+        0.25,
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.286
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s031",
+      "motif128": "B1",
+      "features128": [
+        0.3046875,
+        1.0,
+        1.0,
+        0.3125,
+        0.0625,
+        0.015625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ 4\\le TP\\le\\sqrt{3N/8};\\ DP=N/TP;\\ EP\\in[E/C,2E/C)}$",
+      "family256": "C",
+      "features256_reported": [
+        0.30469999999999997,
+        1.0,
+        1.0,
+        0.312,
+        0.062,
+        0.013
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s037",
+      "motif128": "B1",
+      "features128": [
+        0.3671875,
+        1.0,
+        1.0,
+        0.625,
+        0.125,
+        0.265625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ TP=4;\\ DP=N/4;\\ MB=1;\\ EP=E/C}$",
+      "family256": "C",
+      "features256_reported": [
+        0.36719999999999997,
+        1.0,
+        1.0,
+        0.625,
+        0.125,
+        0.228
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s042",
+      "motif128": "A3",
+      "features128": [
+        0.4140625,
+        0.5,
+        0.5,
+        1.0,
+        0.6875,
+        0.609375
+      ],
+      "strategy128": "`PP4_TP2_DP16_EP8_MB8`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP\\ge4;\\ PP\\cdot TP^2\\le N/5;\\ DP=N/(PP\\cdot TP);\\ 1.3PP\\le MB\\le2.7PP;\\ EP\\in[E/C,2E/C)}$",
+      "family256": "B",
+      "features256_reported": [
+        0.41409999999999997,
+        0.5,
+        0.5,
+        1.0,
+        0.688,
+        0.522
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s043",
+      "motif128": "B2",
+      "features128": [
+        0.421875,
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.6145833333333334
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ TP=4;\\ DP=N/4;\\ MB=1;\\ EP\\in[E/C,2E/C)}$",
+      "family256": "A",
+      "features256_reported": [
+        0.4219,
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.527
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s045",
+      "motif128": "B1",
+      "features128": [
+        0.4453125,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.109375
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\quad PP=1;\\ TP/DP>0.1;\\ TP<8;\\ DP\\cdot MB\\le7B/13;\\ MB=1;\\ EP\\in[E/C,2E/C);\\quad DP=\\frac{N}{PP\\times TP}}$",
+      "family256": "C",
+      "features256_reported": [
+        0.44530000000000003,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.094
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s046",
+      "motif128": "B3",
+      "features128": [
+        0.453125,
+        0.5,
+        0.5,
+        1.0,
+        0.375,
+        0.6354166666666666
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ TP=4;\\ DP=N/4;\\ MB=1;\\ EP=E/C}$",
+      "family256": "A",
+      "features256_reported": [
+        0.4531,
+        0.5,
+        0.5,
+        1.0,
+        0.375,
+        0.545
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s049",
+      "motif128": "B1",
+      "features128": [
+        0.484375,
+        1.0,
+        1.0,
+        0.75,
+        0.375,
+        0.15625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ TP=4;\\ DP=N/4\\;(N=128\\Rightarrow DP=32);\\ MB=1;\\ EP\\in[E/C,2E/C)}$",
+      "family256": "C",
+      "features256_reported": [
+        0.4844,
+        1.0,
+        1.0,
+        0.75,
+        0.375,
+        0.134
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s052",
+      "motif128": "B2",
+      "features128": [
+        0.515625,
+        0.625,
+        0.75,
+        1.0,
+        0.125,
+        0.65625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ TP/DP<1/2\\text{且尽量接近}1/2;\\ PP\\cdot TP\\le N/24;\\ DP=N/(PP\\cdot TP);\\ MB=1;\\ EP\\in[E/C,4E/(3C)]}$",
+      "family256": "C",
+      "features256_reported": [
+        0.5156000000000001,
+        0.625,
+        0.75,
+        1.0,
+        0.125,
+        0.562
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s073",
+      "motif128": "B2",
+      "features128": [
+        0.7265625,
+        0.75,
+        0.75,
+        1.0,
+        0.0625,
+        0.515625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ TP/DP<1/2\\text{且尽量接近}1/2;\\ PP\\cdot TP\\le N/24;\\ DP=N/(PP\\cdot TP);\\ MB=1;\\ EP=E/C}$",
+      "family256": "C",
+      "features256_reported": [
+        0.7265999999999999,
+        0.75,
+        0.75,
+        1.0,
+        0.062,
+        0.442
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s090",
+      "motif128": "B1",
+      "features128": [
+        0.8984375,
+        1.0,
+        1.0,
+        1.0,
+        0.25,
+        0.140625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ PP=1;\\ TP=4;\\ DP=N/4;\\ MB=1;\\ EP=E/C}$",
+      "family256": "C",
+      "features256_reported": [
+        0.8984000000000001,
+        1.0,
+        1.0,
+        1.0,
+        0.25,
+        0.121
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s092",
+      "motif128": "B1",
+      "features128": [
+        0.921875,
+        1.0,
+        1.0,
+        1.0,
+        0.625,
+        0.15625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ 0.5\\le TP/DP\\le2\\text{为比例目标};\\ TP\\le10;\\ DP\\ge20\\Rightarrow PP\\cdot TP\\le N/20;\\ MB=1;\\ EP\\in[E/C,2E/C);\\quad DP=\\frac{N}{PP\\times TP}}$",
+      "family256": "C",
+      "features256_reported": [
+        0.9218999999999999,
+        1.0,
+        1.0,
+        1.0,
+        0.625,
+        0.134
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    },
+    {
+      "id": "s093",
+      "motif128": "B1",
+      "features128": [
+        0.9296875,
+        1.0,
+        1.0,
+        1.0,
+        0.0625,
+        0.140625
+      ],
+      "strategy128": "`PP1_TP4_DP32_EP8_MB1`",
+      "formula128": "$\\boxed{active\\_gpu=N;\\ TP/DP<1/2\\text{且尽量接近}1/2;\\ PP\\cdot TP\\le N/24;\\ DP=N/(PP\\cdot TP);\\ MB=1;\\ EP\\in[E/C,2E/C]}$",
+      "family256": "C",
+      "features256_reported": [
+        0.9297,
+        1.0,
+        1.0,
+        1.0,
+        0.062,
+        0.121
+      ],
+      "first_five_match_rounding": true,
+      "aff_matches_replication_factor": true
+    }
+  ]
+}

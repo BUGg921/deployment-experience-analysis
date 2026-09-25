@@ -1,0 +1,231 @@
+{
+  "manifest_hashes_match": true,
+  "feasible_candidates": 90,
+  "all_19_unique_top1_match": true,
+  "all_190_memory_match": true,
+  "score_results": [
+    {
+      "id": "s004",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 40.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -105.0,
+        "PP4_TP2_DP32_EP8_MB4": 13.125,
+        "PP1_TP4_DP64_EP8_MB1": 40.625
+      }
+    },
+    {
+      "id": "s005",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 30.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 30.0,
+        "PP4_TP2_DP32_EP8_MB4": 25.0,
+        "PP1_TP4_DP64_EP8_MB1": 20.0
+      }
+    },
+    {
+      "id": "s006",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 40.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 40.0,
+        "PP4_TP2_DP32_EP8_MB4": 35.0,
+        "PP1_TP4_DP64_EP8_MB1": 10.0
+      }
+    },
+    {
+      "id": "s009",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 30.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -136.43186931623487,
+        "PP4_TP2_DP32_EP8_MB4": -33.04227975322273,
+        "PP1_TP4_DP64_EP8_MB1": 30.625
+      }
+    },
+    {
+      "id": "s010",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 80.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 80.0,
+        "PP4_TP2_DP32_EP8_MB4": 50.0,
+        "PP1_TP4_DP64_EP8_MB1": 20.0
+      }
+    },
+    {
+      "id": "s025",
+      "score_top1": "PP4_TP2_DP32_EP8_MB4",
+      "highest_score": 25.625002000000002,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 22.500002000000002,
+        "PP4_TP2_DP32_EP8_MB4": 25.625002000000002,
+        "PP1_TP4_DP64_EP8_MB1": 20.625002000000002
+      }
+    },
+    {
+      "id": "s026",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 36.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 36.0,
+        "PP4_TP2_DP32_EP8_MB4": 26.0,
+        "PP1_TP4_DP64_EP8_MB1": 11.0
+      }
+    },
+    {
+      "id": "s031",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 25.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -5.0,
+        "PP4_TP2_DP32_EP8_MB4": 15.0,
+        "PP1_TP4_DP64_EP8_MB1": 25.0
+      }
+    },
+    {
+      "id": "s037",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 10.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -152.51,
+        "PP4_TP2_DP32_EP8_MB4": -54.385,
+        "PP1_TP4_DP64_EP8_MB1": 10.625
+      }
+    },
+    {
+      "id": "s042",
+      "score_top1": "PP4_TP2_DP32_EP8_MB4",
+      "highest_score": 42.5,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 36.25,
+        "PP4_TP2_DP32_EP8_MB4": 42.5,
+        "PP1_TP4_DP64_EP8_MB1": -33.75
+      }
+    },
+    {
+      "id": "s043",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 50.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 50.0,
+        "PP4_TP2_DP32_EP8_MB4": 40.0,
+        "PP1_TP4_DP64_EP8_MB1": 20.0
+      }
+    },
+    {
+      "id": "s045",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 35.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -10.5,
+        "PP4_TP2_DP32_EP8_MB4": -10.5,
+        "PP1_TP4_DP64_EP8_MB1": 35.0
+      }
+    },
+    {
+      "id": "s046",
+      "score_top1": "PP4_TP4_DP16_EP8_MB8",
+      "highest_score": 70.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 70.0,
+        "PP4_TP2_DP32_EP8_MB4": 60.0,
+        "PP1_TP4_DP64_EP8_MB1": 24.54544
+      }
+    },
+    {
+      "id": "s049",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 60.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -960.0,
+        "PP4_TP2_DP32_EP8_MB4": -621.875,
+        "PP1_TP4_DP64_EP8_MB1": 60.625
+      }
+    },
+    {
+      "id": "s052",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 65.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 11.40909090909091,
+        "PP4_TP2_DP32_EP8_MB4": 27.196428571428573,
+        "PP1_TP4_DP64_EP8_MB1": 65.625
+      }
+    },
+    {
+      "id": "s073",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 70.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -22.5,
+        "PP4_TP2_DP32_EP8_MB4": 2.5,
+        "PP1_TP4_DP64_EP8_MB1": 70.0
+      }
+    },
+    {
+      "id": "s090",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 55.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -87.10396931623485,
+        "PP4_TP2_DP32_EP8_MB4": 5.625,
+        "PP1_TP4_DP64_EP8_MB1": 55.625
+      }
+    },
+    {
+      "id": "s092",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 10.625,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": -22.500999999999998,
+        "PP4_TP2_DP32_EP8_MB4": -4.3759999999999994,
+        "PP1_TP4_DP64_EP8_MB1": 10.625
+      }
+    },
+    {
+      "id": "s093",
+      "score_top1": "PP1_TP4_DP64_EP8_MB1",
+      "highest_score": 65.0,
+      "tie_count": 1,
+      "representative_scores": {
+        "PP4_TP4_DP16_EP8_MB8": 16.0,
+        "PP4_TP2_DP32_EP8_MB4": -1.0,
+        "PP1_TP4_DP64_EP8_MB1": 65.0
+      }
+    }
+  ],
+  "representative_scopes": {
+    "PP4_TP4_DP16_EP8_MB8": {
+      "tp_scope": 0.0,
+      "dp_scope": 0.1875
+    },
+    "PP4_TP2_DP32_EP8_MB4": {
+      "tp_scope": 0.0,
+      "dp_scope": 0.09375
+    },
+    "PP1_TP4_DP64_EP8_MB1": {
+      "tp_scope": 0.0,
+      "dp_scope": 0.1875
+    }
+  }
+}
